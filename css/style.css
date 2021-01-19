@@ -127,13 +127,19 @@ input, select {
 .header-nav a {
   color: #f2f2f2;
 }
-
-#eyecatch {
+/* 
+/* #eyecatch {
   height: 600px;
-  background: url(file:///Users/atsushi.arayashiki/Downloads/coachtech/img/eyecatch.jpg) no-repeat;
+  /* background: (./img/eyecatch.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
   position: relative;
+} */ */
+
+.mori {
+  width: 200px;
+  height: 200px;
+
 }
 
 #eyecatch p {
