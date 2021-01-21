@@ -127,160 +127,61 @@ input, select {
 .header-nav a {
   color: #f2f2f2;
 }
-/* 
-/* #eyecatch {
-  height: 600px;
-  /* background: (./img/eyecatch.jpg) no-repeat; */
-  background-size: cover;
-  background-position: center;
-  position: relative;
-} */ */
 
-.mori {
-  width: 200px;
-  height: 200px;
-
+.top {
+  background-image: url(../img/eyecatch.jpg);
+  width:cover;
+  height:600px;   
 }
 
-#eyecatch p {
-  position: absolute;
-  top: 55%;
-  left: 30%;
-  transform: translate(-50%,-50%);
-  font-size: 50px;
-  font-style: 100px;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-}
-
-.example img {
-  width: 100%
-}
-
-.new0 {
-  position:absolute;
-  bottom: 0px;
-  right: 0px;
-  display: flex;
-}
-
-.news {
-  width: 500px;
-  height: 40px;
-  font-size: 10px;
-  background: white;
-  list-style: none;
-}
-
-.news2 {
-  width: 100px;
-  height: 50px;
-  background: black;
-  color: white;
-  float:left;
-}
-
-.body1 {
-  background: black;
-  height: 200px;
-  padding: 200px;
-}
-
-.body2 {
-  color: white;
-  font-size: 30px;
-}
-
-.body3 {
-  color: white;
-  width: 970px;
-  margin-top: 20px;
-}
-
-.link {
-  color: black;
-  background: white;
-  width: 120px;
-  text-decoration: none;
-  margin-top: 20px;
-}
-
-.img {
-  position: relative;
-  top: -400px;
-  right: -600px;
-}
-
-.main {
-  background: rgb(226, 218, 218);
-  width: 100%;
-  height: 1600px;
-  text-align: center;
-  padding-top: 10px;
-
-}
-
-.kamera {
-  position: relative;
-  top:-1450px;
-  text-align:right;
-}
-
-.card1 {
-  width: 500px;
-  height: 300px;
-  padding: 10px 10px 10px;
-  margin-left: 400px;
-  margin-top: -400px;
-  background-color: white;
-  text-align: left;
+.top1 {
+  font-size:40px;
+  color:white;
   
 }
 
-.siro {
-  display: block;
-  /* text-align: center; */
+.top2 {
+  background-color:white;
+  width: 700px;
 }
 
-.title2 {
-  margin-top: 200px;
-  text-align: left;
+.top3 {
+  background-color: black;
+  color:white;
+  
+}
+
+.top23 {
+  display: flex;
+}
+
+.main {
+  background-color: black;
+  height: 500px;
+}
+
+.ma {
+  color:white;
+  font-size:30px;
 
 }
 
-.title{
- padding-left: 100px;  
- 
+.main2 {
+  color:white;
+  width: 950px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 
-.sa {
+.link {
   padding: 5px 20px;
   font-size: 14px;
-  color: black;
-  border: 1px #000 solid;
+  color:black;
+  text-decoration: none;
+  border: 1px white solid;
   border-radius: 3px;
-  width: 100px;
+  background-color: white;
 }
-
-sa:hover {
-  color: #000;
-}
-
-.aohi {
- position: relative;
- top: 170%;
- right: 83%;
-}
-
-.sora {
- position: relative;
- top: 100px;
- right: 100px;
-}
-
-
-
-
-
-
+ #furu {
+   
+ }
