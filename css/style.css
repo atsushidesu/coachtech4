@@ -131,13 +131,16 @@ input, select {
 .top {
   background-image: url(../img/eyecatch.jpg);
   width:cover;
-  height:600px;   
+  height:600px;
+  position: relative;   
 }
 
 .top1 {
   font-size:40px;
   color:white;
-  
+  position: absolute;
+  top: 50%;
+  left: 10%;
 }
 
 .top2 {
@@ -153,11 +156,21 @@ input, select {
 
 .top23 {
   display: flex;
+  position:absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .main {
   background-color: black;
   height: 500px;
+  position:relativv; 
+}
+
+.mi {
+  position:relative;
+  top:40%;
+  left: 20%;
 }
 
 .ma {
@@ -182,6 +195,21 @@ input, select {
   border-radius: 3px;
   background-color: white;
 }
- #furu {
-   
- }
+ 
+.furu {
+  position:relative;
+  top:10%;
+  left:65%;
+}
+
+.service {
+  background-color:rgb(221, 219, 219);
+  height: 1000px;
+  margin-top:130px;
+}
+
+.service {
+  text-align: center;
+  padding:20px;
+  
+}
