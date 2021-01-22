@@ -259,12 +259,27 @@ input, select {
   position: relative;
   top:-70px;
   left:300px;
+  z-index: 100;
 }
+
+.companyclass {
+  font-size:30px;
+}
+
 
 .aohi {
   position: relative;
   top:-300px;
   left:-610px;
+  z-index: 50;
+}
+ 
+.con {
+  color:white;
+  position: relative;
+  top:230px;
+  left: 230px;
+  line-height: 45px;
 }
 
 .faq {
@@ -273,6 +288,16 @@ input, select {
   height: 100px;
   color:white;
   
+}
+
+.kurokumo {
+  margin-top: 100px;
+}
+
+.neji {
+  position: relative;
+  top:-234px;
+  left:840px;
 }
 
 .faq1 {
