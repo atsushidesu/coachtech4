@@ -282,12 +282,17 @@ input, select {
   line-height: 45px;
 }
 
-.faq {
-  background-color: black;
-  width: 950px;
-  height: 100px;
+.re {
+  position: relative;
+  top: -100px;
+  left: 1100px;
   color:white;
-  
+  z-index: 50;
+  /* line-height: 45px; */
+}
+
+.recruitclass {
+  font-size:30px;
 }
 
 .kurokumo {
@@ -300,6 +305,67 @@ input, select {
   left:840px;
 }
 
+.faq {
+  background-color: black;
+  width: 950px;
+  height: 100px;
+  color:white;
+  position: relative;
+  left:280px;
+}
+
+
+
 .faq1 {
   font-size:25px;
+  padding:40px 0px 0px 30px;
+}
+
+.q {
+  text-align: center;
+  /* padding-top: -30px; */
+}
+
+.contact {
+  color:white;
+  text-align: center;
+  position: relative;
+  padding-top:100px;
+}
+
+.main3 {
+  position: relative;
+  top: -350px;
+}
+
+.h1 {
+  font-size:25px;
+  padding-bottom: 10px;
+}
+
+.h2 {
+  font-size:15px;
+  padding-bottom:30px;
+}
+
+.h3 {
+  font-size:30px;
+  font-weight:lighter;
+  padding-bottom: 30px;
+}
+
+.p {
+  font-size:7px;
+  padding-bottom:30px;
+}
+
+.contactbox {
+  width: 120px;
+  height: 20px;
+  border:1px solid white;
+  font-size:10px;
+  padding-top: 10px;
+  position: relative;
+  left:660px;
+
 }
