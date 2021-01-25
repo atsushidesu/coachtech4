@@ -346,14 +346,19 @@ input, select {
 
 .contact {
   color:white;
-  text-align: center;
-  padding-top:100px;
-  background-color:#ff9;
+  position: relative;
+  
+  /* text-align: center; */
+  /* background-color:#ff9; */
+  /* height: 0px; */
+  
 }
 
 .main3 {
-  position: relative;
-  top: -350px;
+  position:absolute;
+  top:0px;
+  width: 100%;
+  text-align: center;
 }
 
 .h1 {
@@ -378,23 +383,16 @@ input, select {
 }
 
 .contactbox {
-  width: 120px;
+  width: 100px;
   height: 20px;
   border:1px solid white;
   font-size:10px;
-  padding-top: 10px;
-  position: relative;
-  left:660px;
-
+  padding-top: 10px; 
 }
 
 .footer {
   display:flex;
   justify-content: space-between;
-  color:white;
-  background: black;
-  width:100%;
-  height:150px; 
   padding-top:20px;
 }
 
@@ -416,6 +414,16 @@ ul {
 }
 
 .end {
-  padding-top: 110px;
-  padding-left: 400px;
+  text-align: center;
+  padding-top: 70px;
 }
+
+.all {
+  color:white;
+  background: black;
+  width:100%;
+  height:150px; 
+  position: relative;
+
+}
+
