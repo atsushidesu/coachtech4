@@ -230,8 +230,6 @@ input, select {
   z-index: 150;
 }
 
-
-
 .webbox {
   width: 100px;
   height: 20px;
@@ -244,19 +242,18 @@ input, select {
 }
 
 .mission {
-  padding-top:20px;
-  padding-bottom: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
-
-.user {
-  line-height: 20px;
   
-}
+.user {
+    line-height: 20px;   
+} 
 
 .camera {
  position:relative;
  top:-250px;
- left:710px;
+ left:710px; 
 }
 
 .web2 {
@@ -297,67 +294,159 @@ input, select {
   top:-200px;
   margin-top: 100px;
 }
+.faq {
 
-.display {
-  display:flex;
-  justify-content: space-between;
-  margin-top: 100px;
-  
+background-color: white;
+height: 700px;
+position: relative;
 }
 
-.company {
-  position: relative;
+.ooo {
+  display:flex;
+  margin-top:150px;
+  text-align: center;
+}
+
+.display {
+  position:absolute;
+  left:0px;
+}
+
+.recruit {
+  position:absolute;
+  right: 0px;
+}
+
+.aaa {
+  background-color: black;
+  width: 700px;
+  height: 130px;
+  position: absolute;
+  top: 60%;
+  right:350px;
+  color:white;
+  display: flex;
 }
 
 .con {
   color:white;
   position:absolute;
-  top:80px;
+  top:50%;
   right: 50%;
 }
 
-.recruit {
-  position:relative;
-}
-
-.re {
-  color: white;
-  position: absolute;
-  top:80px;
-  right: 50%;
-}
-
-.faq {
-  background-color: black;
-  background-position: center;
-  width: 950px;
-  height: 100px;
+.recruitclass {
   color:white;
-  display:flex;
-  padding:60px 0px 0px 40px;
-  margin:200px;
-  position: relative;
-
+  position:absolute;
+  top:50%;
+  left: 50%;
 }
 
 .faq1 {
-  font-size:25px; 
+  font-size:25px;
+  padding-top:50px;
+  padding-left: 30px;
 }
 
 .q {
-  padding-left:370px;
+font-size:15px;
+padding-top: 50px;
+padding-left: 200px;
 }
 
 .contact {
   color:white;
   position: relative;
-  
-  /* text-align: center; */
-  /* background-color:#ff9; */
-  /* height: 0px; */
-  
+  text-align: center;
 }
 
+.main3 {
+  position:absolute;
+  width: 1000px;
+  top:180px;
+  padding-left: 15%;
+}
+
+.p {
+  font-size:13px;
+}
+
+.h1 {
+  font-size:25px;
+  padding-bottom: 10px;
+}
+
+.h2 {
+  font-size:15px;
+  padding-bottom:30px;
+}
+
+.h3 {
+  font-size:30px;
+  font-weight:lighter;
+  padding-bottom: 30px;
+}
+
+.p {
+  font-size:7px;
+  padding-bottom:30px;
+}
+
+.contactbox {
+  width: 100px;
+  height: 20px;
+  border:1px solid white;
+  font-size:10px;
+  padding-top: 10px; 
+  position: absolute;
+  top:170px;
+  left:55%;
+}
+
+.all {
+  color:white;
+  background: black;
+  width:100%;
+  height:150px; 
+  position: relative；
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  padding-top:20px;
+}
+
+.footer1 {
+  margin-left:40px;
+}
+
+ul {
+  display:flex;
+}
+
+.item {
+  list-style: none;
+  padding:0px 15px;
+}
+
+.menu {
+  margin-right:20px;
+}
+
+.end {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.contact {
+  color:white;
+  position: relative;
+  text-align: center;
+  background-color:#ff9;
+  height: 0px;
+}
+  
 .main3 {
   position:absolute;
   top:0px;
@@ -427,7 +516,5 @@ ul {
   background: black;
   width:100%;
   height:150px; 
-  /* position: relative; */
-
+  position: relative；
 }
-
