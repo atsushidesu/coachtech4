@@ -475,6 +475,14 @@ ul {
   padding-bottom:30px;
 }
 
+.contactimg {
+  vertical-align: top;
+}
+
+img {
+  display: block;
+}
+
 .contactbox {
   width: 100px;
   height: 20px;
