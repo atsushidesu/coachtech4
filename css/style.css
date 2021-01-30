@@ -155,7 +155,7 @@ input, select {
 .top3 {
   background-color: black;
   color:white;
-  
+  height: 70px;
 }
 
 .top23 {
@@ -331,14 +331,14 @@ position: relative;
 .con {
   color:white;
   position:absolute;
-  top:50%;
+  top:40%;
   right: 50%;
 }
 
 .recruitclass {
   color:white;
   position:absolute;
-  top:50%;
+  top:40%;
   left: 50%;
 }
 
