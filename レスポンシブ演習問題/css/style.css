@@ -532,11 +532,13 @@ body {
 .catchcopy {
   top:40%;
   text-align: center;
+  left:0%;
+  padding:20px;
 }
 
 .news{
   width:100%;
-  margin:10px;
+  margin:0px;
 }
 
 .service-img {
@@ -549,24 +551,78 @@ body {
   height: 300px;
   background-color: #fff;
   position: absolute;
-  top:280px;
+  top:30px;
   left: 0px;
-  
+  position: static;
 }
 
 .service-content {
   display:block;
   margin-top: 0px;
-  padding-bottom: 0%;
+  padding-bottom: 50px;
+  margin-bottom:50px;
 }
 
 .service {
     background: #e5e5e5;
-    margin-bottom: 0%;
+    padding: 0px 20px;
 }
 
 .service-img_second {
-  margin-top: 300px;
+  margin-top: 40px;
 }
 
+.recruit-company_size {
+  width: 100%;
+}
+
+.faq-title {
+  text-align: center;
+}
+
+.faq-title-jp {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.header-logo{
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+
+.header-logo {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.news_date {
+  padding-left: 15px;
+}
+
+.news_title {
+    padding: 0 20px;
+}
+
+.mission-content {
+    padding: 10% 20% 10% 20%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.end {
+  width: 100%;
+  padding-left:100px;
+}
+
+small {
+  width: 100%;
+  font-size:15px;
+}
+
+.faq {
+  width: 100%;
+  margin-left: 10px ;
+  margin-right: 10px ;
+}
 }
