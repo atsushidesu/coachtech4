@@ -620,9 +620,13 @@ small {
   font-size:15px;
 }
 
-.faq {
-  width: 100%;
-  margin-left: 10px ;
-  margin-right: 10px ;
+.faq-title-jp {
+  padding-left: 20px;
 }
+
+.aaa {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 }
