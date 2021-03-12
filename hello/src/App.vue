@@ -1,22 +1,28 @@
 <template>
   <div id="app">
-   <h1>名前は{{number.name}}</h1>
-   <h1>年齢は{{number.age}}</h1>
-   <h1>生まれは{{number.from}}</h1>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-  data(){
-    return{
-      number:{
-        name: "荒屋敷惠美子",
-        age: 70,
-        from: "是川"
-      }
-    };
+  name: 'App',
+  components: {
+    HelloWorld
   }
-};
+}
 </script>
 
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
